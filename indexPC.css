@@ -12,7 +12,15 @@
     top: -80px; margin: 2px 500px;
     left: 450px;
 }
+.container1 .header {
+    position: fixed;
+    top: -10px;
+    background-color: #000;
+    width: 99.2%;
+    height: 80px;
+}
 .container1 li {
+    
 }
 .container1 a {
     text-decoration: none;
@@ -102,7 +110,6 @@
 }
 .page-content2 .heading {
     margin: 0 0 150px;
-    padding: auto;
 }
 .page-content2 .heading p {
     margin: 0 500px;
@@ -202,16 +209,202 @@
     width: 550px;
     margin-left: 660px;
 }
-.feature-box {
-    text-align: center;
-    display: flex;
-    width: 100%;
+.feature {
+    margin: 0 300px;
 }
 .feature-box1 {
-    border: 1px solid #7e7e7e;
+    border: 1px solid #6464644b;
+    width: 100%; text-align: center;
 }
-.feat {
-    text-align: center;
-    width: 100%;
+.feature-box1 p {
+    padding: 0 10px;
+}
+.feature-box {
+   display: flex;
+}
+.feature-box2 {
     display: flex;
+}
+.post-desk {
+    background-image: url(images/14.jpg);
+    background-repeat: no-repeat;
+    width: 100%; height: 40vh;
+    background-size: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.content {
+    padding-top: 100px;
+}
+.post-desk h4 {
+    color: #EEAD20;
+}
+.post-desk p {
+    color: #fff;
+    padding: 0 600px;
+}
+.post-desk a {
+    background-color: #7e7e7e;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.page-content3 {
+    width: 100%; height: 80vh;
+}
+.page-content3 .row {
+    width: 80%; height: 75vh;
+    margin: 0 200px;
+    
+}
+.page-content3 img {
+    height: 500px;
+    position: relative;
+    left: 200px; top: 50px;
+}
+.page-content3 .head-text {
+    text-align: center;
+}
+.page-content3 .main-text {
+    position: relative;
+    bottom: 450px; left: 700px;
+}
+.main-text .number {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #afafaf;
+}
+.page-content3 .btn-box {
+    position: relative;
+    bottom: 400px; left: 700px;
+    display: flex;
+}
+.page-content3 .btn-box1  {
+    text-align: center;
+    background-color: #000;
+    margin: 0 20px; width: 200px; height: 50px;
+}
+.page-content3 .btn-box1 a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+.page-content3 .btn-box2 {
+    border: 1px solid #000;
+    width: 150px;
+    text-align: center;
+}
+.page-content3 .btn-box2 a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    top: 10px;
+}
+.page-contact {
+    display: flex;
+    color: #fff;
+    width: 100%;
+}
+.page-contact .post-text {
+    background-image: url(./images/p10.jpg);
+    background-repeat: no-repeat;
+    width: 700px; height: 500px;
+    position: relative;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page-contact .post-text2 {
+    background-image: url(./images/p11.jpg);
+    background-repeat: no-repeat;
+    width: 700px;
+    position: relative;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page-contact .post-text span, p {
+    padding-left: 50px;
+    font-weight: bold;
+}
+.page-contact .post-text2 span {
+    padding-left: 50px;
+    font-weight: bold;
+}
+.page-content4 {
+    text-align: center;
+}
+.page-content4 h3 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+.page-content4 p {
+    padding-right: 40px;
+    color: #7e7e7e;
+}
+.contact1 {
+    background-image: url(./images/15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.contact1 .contact-box {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.contact1 .contact-box i {
+    font-size: 2.8rem;
+}
+.minjae {
+    text-align: center;
+}
+.minjae .min-text h3 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.minjae .min-text p {
+    color: #7e7e7e;
+    margin-right: 50px;
+}
+.minjae .form {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px;
+}
+.minjae .form input {
+    background-color: #d1d1d1;
+    border: none;
+    height: 50px;
+    margin: 3px 0;
+}
+.minjae .form textarea {
+    border: none;
+    background-color: #d1d1d1;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+footer {
+    background-color: #d1d1d1;
+    height: 50vh;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 0;
+}
+footer .social a img{
+ margin: 10px;
+}
+.container img {
+    margin-top: 100px;
+}
+.footer-p {
+    margin-top: 50px;
 }
